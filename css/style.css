@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+html{
+    overflow-y: scroll;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#menu-h {
+    background-color: rgb(116, 81, 45);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+    
+}
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+#menu-h ul li a:hover {
+    color: black;
+}
+
+#menu-h img {
+    padding: 20pX;
+    position: absolute;
+    left: 10px;
+    width: 180px;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+    align-content: center;
+    margin-top: 100px;
+    padding: 0 200px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+}
+.text{
+        width: auto;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: 15px;
+}
+
+.img img{
+    padding: 10px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.icon-h{
+    margin-top: 100px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-h li {
+    padding: 20px; /* Diminui um pouco o padding */
+    margin: 20px;
+    background: #ebebeb;
+    display: inline-block;
+    border-radius: 15px; /* Bordas arredondadas mais visíveis */
+    transition: background-color 0.4s;
+    text-align: center; /* Centraliza o texto */
+    width: 200px; /* Tamanho fixo para os itens */
+    height: 120px;
+    align-items: center;
+}
+
+.icon-h li img {
+    width: 50px; /* Ajusta o tamanho da imagem */
+    height: 50px;
+    /* Espaçamento entre o ícone e o texto */
+}
+
+.icon-h li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.icon-h li:hover {
+    background-color: #ebebeb; /* Altera a cor de fundo ao passar o mouse */
+}
+
+
+.icon{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon li {
+   
+    display: inline-block;
+    transition: opacity 0.4s;
+    width: 150px; /* Tamanho fixo para os itens */
+    height: 150px;
+    align-items: center;
+}
+
+.icon li img {
+    width: 50px; 
+    height: 50px;
+}
+
+.icon li a {
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+}
+
+.icon li:hover {
+    opacity: 0.5;
+}
+.title{
+    background-color: #ebebeb;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.title p{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 15px;
+   
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(116, 81, 45); /* Cor da barra de rolagem */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+footer {
+    background-color: rgb(116, 81, 45);
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    align-content: end;
+}
+footer img{
+    width: 150px;
+}
